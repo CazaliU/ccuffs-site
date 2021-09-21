@@ -1,0 +1,47 @@
+body {
+  /* Formatação da página */
+  width: 95%;
+  max-width: 800px;
+  margin: auto;
+  background: url(background.jpg) center;
+  /* Formata o texto do body */
+  font-family: sans-serif;
+  line-height: 1.5;
+  color: white;
+}
+
+main {
+  /* Formata as margens e bordas */
+  background: #00000090;
+  padding: 5px 40px;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+.img {
+  width: 30%;
+  height: 30%; /* a imagem se ajusta a tela */
+  object-fit: cover; /* deixa a imagem com tamanho proporcional */
+}
+
+.foto-perfil,
+.meu-nome,
+.frase {
+  text-align: center;
+  margin: 0;
+}
+
+.tabela {
+  /* Formatação da tabela */
+  margin: 30px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.tabela table {
+  /* Formatação da tabela */
+  background: #4a00ff73;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 auto;
+}
